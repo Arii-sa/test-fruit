@@ -1,0 +1,134 @@
+.header {
+    background: white;
+  }
+  
+.header__inner {
+    padding: 20px 15px;
+    max-width: 1230px;
+  }
+  
+.header__logo {
+    color: #e8d90cfa;
+    font-weight: lighter;
+    font-size: 24px;
+  }
+.form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+  }
+
+.form {
+    margin: 0 auto;
+    padding: 10px 40px;
+    max-width: 100%;
+    background-color: #ddd;
+  }
+  
+.form__group {
+    margin: 0 auto;
+    text-align: left;
+    width: 60%;
+  }
+
+.form__season-inputs {
+    display: flex;
+    justify-content: left;
+  }
+
+.form__season-option {
+    margin-right: 64px;
+  }
+  
+
+.form__season-input {
+    position: absolute;
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+.form__season-text::before {
+    display: block;
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #8B7969;
+    border-radius: 50%;
+    content: '';
+  }
+  
+.form__season-input:checked+.form__season-text::before {
+    background: #8B7969;
+  }
+
+  
+.form__season-text {
+    display: flex;
+    align-items: center;
+  }
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #f50202;
+    color: #f6f3f3;
+  }
+
+  .form__label--required1{
+    color: red;
+  }
+  
+.form__error {
+    height: 25px;
+    color: #ff0000;
+    text-align: left;
+  }
+  
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  
+    appearance: none;
+  }
+  
+.form__input--texts {
+    height: 30px;
+  }
+  
+.form__input--textarea textarea {
+    height: 180px;
+  }
+  
+.form__button {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+.form__back-btn {
+    padding: 10px;
+    width: 15%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(174, 174, 173);
+    color: black;
+    cursor: pointer;
+  }
+
+.form__send-btn {
+    padding: 10px;
+    width: 15%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(252, 186, 64);
+    color: black;
+    cursor: pointer;
+}
+  
